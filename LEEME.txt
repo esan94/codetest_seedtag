@@ -1,0 +1,10 @@
+Para poder ejecutar el código antes hay que hacer lo siguiente:
+  - conda env create -f environment.yml
+  - conda activate alianza
+
+Para ejecutar el módulo de train se tiene que hacer:
+  - python train.py ./dataset
+
+Para ejecutar el módulo de classify se tiene que hacer:
+  - python classify.py LogReg ./dataset/exploration/59497 ./dataset/weapons/53303
+  * El nombre del modelo es LogReg.

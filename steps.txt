@@ -1,0 +1,16 @@
+OBJETIVO:
+  Crear un sistema de clasificación de transmisiones (mensajes)
+
+RECETA:
+  I. Crear un ejecutable train con una variable de entrada que es una ruta que contiene tantas sub-carpetas como
+  categorías hay. El resultado de ejecutar esto es generar un modelo entrenado.
+
+  II. Crear un ejecutable classify que recibe como variables de entrada N elementos donde el primero es el modelo
+  entrenado y el resto son archivos a clasificar.
+
+  III. Crear un notebook ANALYSIS que contenga los pasos hasta llegar a la solución final, estudio del clasificador
+  finalmente escogido, desglosando detalles y métricas.
+
+RESULTADO:
+  Generar un archivo esan94_codetest4_seedtag.zip que contega los pasos de la RECETA y un archivo README donde
+  se explique como ejecutar el código y enviar el resultado a alianza@seedtag.com.

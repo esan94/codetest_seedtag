@@ -1,0 +1,12 @@
+name: alianza
+dependencies:
+  - pandas
+  - numpy
+  - nltk
+  - python=3.7
+  - pip
+  - scikit-learn
+  - plotly
+  - notebook
+  - pip:
+    - fuzzywuzzy
